@@ -1,0 +1,218 @@
+.profile-container{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+}
+.profile-parent{
+    display:flex;
+    align-items: center;
+    color: black;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-role h1{
+    font-size: 40px;
+    font-family: "RampartOne Regular";
+    color: black;
+}
+.primary-text {
+    color:aliceblue;
+}
+.highlighted-text {
+  color: #FF5823;
+}
+.profile-role-tagline{
+   font-size: 20px;
+   margin: 5px 0 0 0;
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    color: black;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .profile-picture-background {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-image: url("../../../assets/Home/profilephoto.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+  }
+  
+  .colz .colz-icon i {
+    color: aliceblue;
+    padding: 8px;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+  .colz .colz-icon i:hover {
+    transform: scale(1.5);
+  }
+  
+  /*IPAD PRO RESPONSIVENESS*/
+  @media only screen and (max-width: 1110px) {
+    .profile-picture {
+      margin: 0 0px 0 80px;
+      height: 290px;
+      width: 330px;
+    }
+    .profile-details-name {
+      font-size: 20px;
+    }
+    .profile-details-role .primary-text {
+      font: 12px;
+    }
+    .profile-options .btn {
+      width: 120px;
+      padding: 11px 0;
+      z-index: 700;
+    }
+  }
+  @media only screen and (max-width: 910px) {
+    .profile-picture {
+      margin: 0 0 0 4px;
+      height: 320px;
+      width: 320px;
+    }
+    .profile-options{
+      width: 400px;
+      padding-left: 100px;
+      padding-right: 20px;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .profile-picture {
+      margin: 0 !important;
+    }
+    .profile-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+    .profile-options {
+      display: flex;
+      justify-content: space-between;
+    }
+    .proflie-details {
+      margin: 25px 0 0;
+    }
+    .profile-options .highlighted-btn {
+      margin: 0 !important;
+    }
+    .profile-details-name,
+    .profile-details-role {
+      text-align: center;
+    }
+    .profile-details-role h1{
+        font-size: 30px;
+        font-family: "RampartOne Regular";
+        color: #091353;
+    }
+  }
+  
+  @media only screen and (max-width: 390px) {
+    .profile-picture {
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profile-details-role h1{
+        font-size: 25px;
+        font-family: "RampartOne Regular";
+        color: #091353;
+    }
+    .profile-options{
+      width: 400px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .profile-role-tagline{
+      font-size: 18px;
+      font-family: "Poppins SemiBold";
+    }
+    .profile-container{
+      display: flex;
+    }
+    
+  }
+  @media only screen and (max-width: 450px) {
+    .profile-picture {
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profile-details-role h1{
+        font-size: 25px;
+        font-family: "RampartOne Regular";
+        color: #091353;
+    }
+    .profile-options{
+      width: 400px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .profile-role-tagline{
+      font-size: 15px;
+      font-family: "Poppins SemiBold";
+    }
+    .profile-container{
+      display: flex;
+    }
+    
+  }
+  @media only screen and (max-width: 320px) {
+    .profile-picture {
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profile-details-role h1{
+        font-size: 25px;
+        font-family: "Poppins SemiBold";
+        color: #091353;
+    }
+    .profile-options{
+      width: 400px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .profile-role-tagline{
+      font-size: 20px;
+      font-family: "Poppins SemiBold";
+    }
+  }
+  
